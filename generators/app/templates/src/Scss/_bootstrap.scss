@@ -1,0 +1,33 @@
+/*!
+ * Bootstrap custom css compiler
+ * only import the part we need to import to reduce the file size :woohoo:
+ */
+
+// Core variables and mixins
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+
+// Core CSS
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import 'bootstrap/form'; // we load our form version
+
+// Components
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/panels';
+
+// Utility classes
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/utilities';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+
+* {
+  @include box-sizing(border-box);
+}
+
+*::before,
+*::after {
+  @include box-sizing(border-box);
+}
+
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
+}

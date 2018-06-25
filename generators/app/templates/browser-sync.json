@@ -1,0 +1,10 @@
+{
+  "server": {
+    "baseDir": "./build/",
+    "index": ["index.html"]
+  },
+  "files": "build/",
+  "https": true,
+  "browser": "google chrome",
+  "ghostMode": false
+}

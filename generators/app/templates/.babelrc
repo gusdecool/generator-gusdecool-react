@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "react-flow-props-to-prop-types",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-runtime"
+  ],
+  "presets" : ["flow", "env", "react"]
+}

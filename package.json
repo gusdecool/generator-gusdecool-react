@@ -1,0 +1,18 @@
+{
+  "name": "generator-gusdecool-react",
+  "version": "0.1.0",
+  "description": "Reactjs generator",
+  "license": "MIT",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.75.0"
+  }
+}

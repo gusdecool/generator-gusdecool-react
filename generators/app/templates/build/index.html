@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><%= appName %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .wrapper {
+            max-width: 1140px;
+            margin: 10px auto;
+            background: #ededed;
+        }
+
+        .border-dotted {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <p>
+        This is area of host page. The widget is generated inside the dotted box below.
+    </p>
+</div>
+
+<div class="wrapper border-dotted">
+    <div id="<%= appName %>"
+    ></div>
+    <script src="https://localhost:3000/widget.js" type="text/javascript" async></script>
+</div>
+
+<div class="wrapper">
+    <p>
+        This is area of host page.
+    </p>
+</div>
+</body>
+</html>
