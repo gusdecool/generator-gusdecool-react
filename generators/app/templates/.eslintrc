@@ -30,6 +30,7 @@
     "flowtype/no-types-missing-file-annotation": "error",
     "flowtype/require-parameter-type": "error",
     "flowtype/require-return-type": "error",
+    "flowtype/require-variable-type": "error",
     "quotes": ["error", "single"],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
