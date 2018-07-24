@@ -13,8 +13,13 @@ flow-typed/
 [lints]
 all=warn
 sketchy-null=error
+unclear-type=error
 
 [options]
 all=false
+module.file_ext=.js
+module.file_ext=.jsx
+module.file_ext=.scss
+module.name_mapper.extension='scss' -> 'empty/object'
 
 [strict]
